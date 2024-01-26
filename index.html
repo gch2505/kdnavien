@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>경동나비엔</title>
+
+    <!--여백초기화-->
+    <link href="./css/reset.css" rel="stylesheet" type="text/css">
+    <!--공통서식-->
+    <link href="./css/common.css" rel="stylesheet" type="text/css">
+    <!--메인서식-->
+    <link href="./css/main.css" rel="stylesheet" type="text/css">
+
+    <!--아이콘폰트 주소-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!--제이쿼리 라이브러리-->
+    <script src="./script/jquery-3.7.1.js"></script>
+    <script src="./script/common.js" defer></script>
+  </head>
+  <body>
+    <!--헤더영역-->
+    <header>
+      <div class="h_wrap">
+        <div class="h_inner">
+          <h1>
+            <a href="index.html" title="메인페이지로 바로가기">
+              <img src="./images/logo.png">
+            </a>
+          </h1>
+          <nav class="gnb">
+            <ul class="gnb_inner">
+              <li>
+                <a href="javascript:void(0);" title="제품소개">제품소개</a>
+                <ul class="sub">
+                  <li><a href="javascript:void(0);" title="보일러">보일러</a></li>
+                  <li><a href="javascript:void(0);" title="환기청정기">환기청정기</a></li>
+                  <li><a href="javascript:void(0);" title="주방가전">주방가전</a></li>
+                  <li><a href="javascript:void(0);" title="온수기">온수기</a></li>
+                  <li><a href="javascript:void(0);" title="숙면매트">숙면매트</a></li>
+                  <li><a href="javascript:void(0);" title="시스템각방">시스템각방</a></li>
+                  <li><a href="javascript:void(0);" title="실내온도조절기">실내온도조절기</a></li>
+                  <li><a href="javascript:void(0);" title="홈네트워크">홈네트워크</a></li>
+                  <li><a href="javascript:void(0);" title="상업용">상업용</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="javascript:void(0);" title="렌탈·케어 소개">렌탈·케어 소개</a>
+                <ul class="sub">
+                  <li><a href="javascript:void(0);" title="렌탈">렌탈</a></li>
+                  <li><a href="javascript:void(0);" title="케어서비스">케어서비스</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="javascript:void(0);" title="고객 서비스">고객 서비스</a>
+                <ul class="sub">
+                  <li><a href="javascript:void(0);" title="구매 가이드">구매 가이드</a></li>
+                  <li><a href="javascript:void(0);" title="제품 가이드">제품 가이드</a></li>
+                  <li><a href="javascript:void(0);" title="빠른해결">빠른해결</a></li>
+                  <li><a href="javascript:void(0);" title="A/S접수 및 안내">A/S접수 및 안내</a></li>
+                  <li><a href="javascript:void(0);" title="고객의 소리">고객의 소리</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="javascript:void(0);" title="나비엔 소식">나비엔 소식</a>
+                <ul class="sub">
+                  <li><a href="javascript:void(0);" title="나비엔 콘덴싱">나비엔 콘덴싱</a></li>
+                  <li><a href="javascript:void(0);" title="나비엔 뉴스룸">나비엔 뉴스룸</a></li>
+                  <li><a href="javascript:void(0);" title="나비엔 매거진">나비엔 매거진</a></li>
+                  <li><a href="javascript:void(0);" title="나비엔 경쟁력">나비엔 경쟁력</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="javascript:void(0);" title="회사 소개">회사 소개</a>
+                <ul class="sub">
+                  <li><a href="javascript:void(0);" title="기업소개">기업소개</a></li>
+                  <li><a href="javascript:void(0);" title="지속가능경영">지속가능경영</a></li>
+                  <li><a href="javascript:void(0);" title="인재경영">인재경영</a></li>
+                  <li><a href="javascript:void(0);" title="윤리경영">윤리경영</a></li>
+                  <li><a href="javascript:void(0);" title="투자정보">투자정보</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <div class="lnb">
+            <a href="javascript:void(0);" title="내게 맞는 제품 찾기">내게 맞는 제품 찾기</a>
+            <ul>
+              <li>&nbsp;</li>
+              <li>&nbsp;</li>
+              <li>&nbsp;</li>
+            </ul>
+            <a href="javascript:void(0);" title="검색" class="search"></a>
+          </div>
+        </div>
+        <div class="sub_box"></div>
+      </div>
+    </header>
+
+    <!--메인콘텐츠영역-->
+    <main>
+      <div class="visual">
+        <div class="slide_wrap">
+          <ul>
+            <li>
+              <a href="javascript:void(0);" title="메인슬라이드1">
+                <img src="./images/main_slide1.png" alt="메인슬라이드 이미지1">
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0);" title="메인슬라이드2">
+                <img src="./images/main_slide2.png" alt="메인슬라이드 이미지2">
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0);" title="메인슬라이드3">
+                <img src="./images/main_slide3.jpg" alt="메인슬라이드 이미지3">
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0);" title="메인슬라이드4">
+                <img src="./images/main_slide4.jpg" alt="메인슬라이드 이미지4">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="left_btn"></div>
+        <div class="right_btn"></div>
+        <div class="ctrl_wrap">
+          <ul class="ctrl_btn">
+            <li class="on">&nbsp;</li>
+            <li>&nbsp;</li>
+            <li>&nbsp;</li>
+            <li>&nbsp;</li>
+          </ul>
+          <i class="fas fa-pause"></i>
+          <i class="fas fa-play"></i>
+        </div>
+      </div>
+      
+      <section class="navien">
+        <article class="promote">
+          <h2>기업 홍보 영상</h2>
+          <div class="p_wrap">
+            <a href="javascript:void(0);" title="기업 홍보 영상">
+              <img src="./images/play.png" alt="영상 재생 버튼" class="play_btn">
+              <img src="./images/bg_move.png" alt="기업 홍보 영상 이미지">
+            </a>
+            <iframe src="https://www.youtube.com/embed/7qYv-d3fETE?si=qpeyND1wSj0MPavs" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </article>
+        <article class="news">
+          <h2>나비엔 뉴스</h2>
+          <ul>
+            <li>
+              <span class="category">공지</span>
+              <a href="javascript:void(0)" title="2023년 경동 신규 협력사 공개 모집"><h3>2023년 경동 신규 협력사 공개 모집</h3></a>
+              <span class="date">2023-11-10</span>
+            </li>
+            <li>
+              <span class="category">공지</span>
+              <a href="javascript:void(0)" title="'나비엔 통합회원' 7월 5일 론칭"><h3>경동나비엔, 3개 서비스 통합 '나비엔 통합회원' 7월 5일 론칭</h3></a>
+              <span class="date">2023-06-05</span>
+            </li>
+            <li>
+              <span class="category">회사소식</span>
+              <a href="javascript:void(0)" title="경동나비엔·경동원, 「쾌적한 생활환경」 비전 선보인다"><h3>경동나비엔·경동원, 코리아빌드위크에서 「쾌적한 생활환경」 비전 선보인다</h3></a>
+              <span class="date">2023-03-14</span>
+            </li>
+            <li>
+              <span class="category">회사소식</span>
+              <a href="javascript:void(0)" title="우즈베키스탄 딜러 컨퍼런스 개최"><h3>경동나비엔, 우즈베키스탄 딜러 컨퍼런스 개최</h3></a>
+              
+              <span class="date">2023-03-14</span>
+            </li>
+            <li>
+              <span class="category">회사소식</span>
+              <a href="javascript:void(0)" title="경동나비엔, ‘베페 베이비페어’ 참가"><h3>경동나비엔, ‘베페 베이비페어’ 참가…‘청정환기시스템’ 등 생활환경 가전 선보여</h3></a>
+              <span class="date">2023-03-14</span>
+            </li>
+          </ul>
+          <a href="javascript:void(0);" title="나비엔 뉴스 페이지로 이동">
+            더보기<i class="fas fa-angle-right"></i>
+          </a>
+        </article>
+      </section>
+
+      
+      <section class="story">
+        <h2>브랜드스토리</h2>
+        <div class="story_wrap">
+          <h2>쾌적한<br>생활환경 파트너<br>경동나비엔은</h2>
+          <p>세상을 향한 진정성 있는 소신과 열정을 바탕으로 그 누구보다 먼저<br>
+            미세먼지를 줄이는 콘덴싱 기술에 집중하였고, 편안한 숙면을 위한 최적의<br>
+            수면 환경 조성을 목표로 온수매트를 선보였으며, 이제 아이들에게 깨끗하고<br>
+            맑은 공기를 선사하는 청정환기시스템에 이르렀습니다.</p>
+          <p>경동나비엔은 쾌적한 공간에 스마트한 생각을 더해 더욱 편리하고<br>
+            믿을 수 있는 올바른 기술을 실현하겠습니다.<br>
+            늘 고객을 최우선으로 하는 사려 깊은 혁신으로, 언제나 환경을 생각하는<br>
+            한결 같은 신념으로, 고객의 건강과 행복이 맞닿는 내일로 나아갑니다.</p>
+        </div>
+      </section>
+
+
+      <section class="product">
+        <h2>제품</h2>
+        <div class="pr_wrap">
+          <ul>
+            <li>
+              <img src="./images/prd_01.png" alt="나비엔 콘덴싱 보일러 이미지">
+              <div class="pr_intro">
+                <p>겨울철 부담되는 난방비<br>
+                확실하게 줄이는 노하우는?</p>
+                <a href="javascript:void(0);" title="나비엔 콘덴싱 보일러 페이지 바로가기" class="btn01">나비엔 콘덴싱 보일러</a>
+              </div>
+              <img src="./images/life_01.jpg" alt="나비엔 콘덴싱 보일러 배경이미지">
+            </li>
+            <li>
+              <img src="./images/prd_02.png" alt="나비엔 콘덴싱 온수기 이미지">
+              <div class="pr_intro">
+                <p>매일 아침 바쁜 출근길<br>
+                여유 있게 준비하는 노하우는?</p>
+                <a href="javascript:void(0);" title="나비엔 콘덴싱 온수기 페이지 바로가기" class="btn01">나비엔 콘덴싱 온수기</a>
+              </div>
+              <img src="./images/life_02.jpg" alt="나비엔 콘덴싱 온수기 배경이미지">
+            </li>
+            <li>
+              <img src="./images/prd_03.png" alt="나비엔 메이트 온수매트 이미지">
+              <div class="pr_intro">
+                <p>자도 자도 피곤한 생활<br>
+                포근한 잠자리를 만드는 노하우는?</p>
+                <a href="javascript:void(0);" title="나비엔 메이트 온수매트 페이지 바로가기" class="btn01">나비엔 메이트 온수매트</a>
+              </div>
+              <img src="./images/life_03.jpg" alt="나비엔 메이트 온수매트 배경이미지">
+            </li>
+            <li>
+              <img src="./images/prd_04.png" alt="나비엔 환기청정기 이미지">
+              <div class="pr_intro">
+                <p>유해가스, 미세먼지로 오염된 실내공기<br>
+                깨끗하게 정화하는 노하우는?</p>
+                <a href="javascript:void(0);" title="나비엔 환기청정기 페이지 바로가기" class="btn01">나비엔 환기청정기</a>
+              </div>
+              <img src="./images/life_04.jpg" alt="나비엔 환기청정기 배경이미지">
+            </li>
+            <li>
+              <img src="./images/prd_05.png" alt="나비엔 IoT 보일러 이미지">
+              <div class="pr_intro">
+                <p>깜빡한 가스불, 집에 있는 아이들 걱정<br>
+                외출시 걱정거리를 해결 할 편리한 노하우는?</p>
+                <a href="javascript:void(0);" title="나비엔 IoT 보일러 페이지 바로가기" class="btn01">나비엔 IoT 보일러</a>
+              </div>
+              <img src="./images/life_05.jpg" alt="나비엔 IoT 보일러 배경이미지">
+            </li>
+          </ul>
+        </div>
+        <div class="left_btn"></div>
+        <div class="right_btn"></div>
+      </section>
+
+
+      <section class="service">
+        <h2>나비엔 프리미엄 터치 서비스</h2>
+        <div class="srv_wrap">
+          <h2>차원이 다른 고객 감동,<br>
+            나비엔 프리미엄 터치서비스</h2>
+            <p>고객의 마음을 먼저 ‘TOUCH’하고 만족시키기 위해 365일, 24시간 고객과 함께 합니다.</p>
+            <a href="javascript:void(0);" title="터치 서비스 페이지 바로가기" class="btn01">터치 서비스 바로가기</a>
+        </div>
+      </section>
+
+
+      <section class="magazine">
+        <h2>나비엔 매거진</h2>
+        <ul>
+          <li>
+            <a href="javascript:void(0);" title="v.159 매거진 N">
+              <img src="./images/magazine1.jpg" alt="v.159 매거진 N">
+              <div class="m_box">
+                <h3>Vol. 159 매거진 N</h3>
+                <span>2021 Winter</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0);" title="v.158 매거진 N">
+              <img src="./images/magazine2.jpg" alt="v.158 매거진 N">
+              <div class="m_box">
+                <h3>Vol. 158 매거진 N</h3>
+                <span>2021 Autumn</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0);" title="v.157 매거진 N">
+              <img src="./images/magazine3.jpg" alt="v.157 매거진 N">
+              <div class="m_box">
+                <h3>Vol. 157 매거진 N</h3>
+                <span>2021 Summer</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0);" title="v.156 매거진 N">
+              <img src="./images/magazine4.jpg" alt="v.156 매거진 N">
+              <div class="m_box">
+                <h3>Vol. 156 매거진 N</h3>
+                <span>2021 Spring</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0);" title="v.155 매거진 N">
+              <img src="./images/magazine5.jpg" alt="v.155 매거진 N">
+              <div class="m_box">
+                <h3>Vol. 155 매거진 N</h3>
+                <span>Magazine Special Edition</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0);" title="v.154 매거진 N">
+              <img src="./images/magazine6.jpg" alt="v.154 매거진 N">
+              <div class="m_box">
+                <h3>Vol. 154 매거진 N</h3>
+                <span>2020 Summer</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0);" title="v.153 매거진 N">
+              <img src="./images/magazine7.jpg" alt="v.153 매거진 N">
+              <div class="m_box">
+                <h3>Vol. 153 매거진 N</h3>
+                <span>2020 Spring</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0);" title="v.152 매거진 N">
+              <img src="./images/magazine8.jpg" alt="v.152 매거진 N">
+              <div class="m_box">
+                <h3>Vol. 152 매거진 N</h3>
+                <span>2019 Winter</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!--푸터영역-->
+    <footer>
+      <a href="https://chat.kdnavien.co.kr/ai/chatbot.do" title="경동나비엔 챗봇" class="chat_btn">
+        <img src="./images/ico_chatbot_animation.gif" alt="경동나비엔 챗봇 이미지">
+      </a>
+      <a href="#" title="페이지 상단 바로가기" class="top_btn"><i class="fas fa-chevron-up"></i></a>
+      <div class="f_wrap">
+        <div class="f_inner">
+          <div class="prize">
+            <ul>
+              <li>
+                <img src="./images/prize_01.png" alt="수상 이미지 1">
+                <span>올해의 브랜드 대상<br>
+                  11년 연속 1위</span>
+              </li>
+              <li>
+                <img src="./images/prize_02.png" alt="수상 이미지 2">
+                <span>프리미엄 브랜드<br>
+                  지수 7년 연속 1위</span>
+              </li>
+              <li>
+                <img src="./images/prize_03.png" alt="수상 이미지 3">
+                <span>한국웰빙환경만족<br>
+                  지수 16년 연속 1위</span>
+              </li>
+              <li>
+                <img src="./images/prize_04.png" alt="수상 이미지 4">
+                <span>한국품질 만족지수<br>
+                  14년 연속 1위</span>
+              </li>
+              <li>
+                <img src="./images/prize_05.png" alt="수상 이미지 5">
+                <span>한국산업의 고객만<br>
+                  족도 9년 연속 1위</span>
+              </li>
+              <li>
+                <img src="./images/prize_06.png" alt="수상 이미지 6">
+                <span>소비자중심경영<br>
+                  인증(CCM) 7회<br>
+                  연속 획득</span>
+              </li>
+              <li>
+                <img src="./images/prize_07.png" alt="수상 이미지 7">
+                <span>업계최초 월드<br>
+                  클래스 300선정</span>
+              </li>
+            </ul>
+          </div>
+          <div class="f_box">
+            <h2>
+              <img src="./images/logo_ci.png" alt="푸터 로고 이미지">
+            </h2>
+            <nav class="fnb">
+              <ul>
+                <li>
+                  <a href="javascript:void(0);" title="오시는 길">오시는 길</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);" title="개인정보처리방침">개인정보처리방침</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);" title="이용약관">이용약관</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);" title="법적고지">법적고지</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);" title="이메일무단수집거부">이메일무단수집거부</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);" title="사이버 신문고">사이버 신문고</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);" title="사이트맵">사이트맵</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);" title="파트너 등록">파트너 등록</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);" title="오픈소스">오픈소스</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);" title="방문예약">방문예약</a>
+                </li>
+              </ul>
+            </nav>
+            <ul class="f_s_wrap">
+              <li class="langage">
+                <select>
+                  <option value="한국어">한국어</option>
+                  <option value="영어">영어</option>
+                  <option value="스페인어">스페인어</option>
+                  <option value="중국어">중국어</option>
+                  <option value="러시아어">러시아어</option>
+                </select>
+              </li>
+              <li class="family_site">
+                <select onChange="siteUrl(this);">
+                  <option value="">관련사이트</option>
+                  <option value="https://www.navienhouse.com/">나비엔하우스</option>
+                  <option value="http://www.cascade.co.kr/">케스케이드 시스템</option>
+                  <option value="https://www.kdnavien.co.kr/ncb900_1">프리미엄 NCB900</option>
+                </select>
+              </li>
+              <li class="sns">
+                <ul>
+                  <li>
+                    <a href="javascript:void(0);" title="네이버 블로그 바로가기">
+                      <img src="./images/ico-footer_blog.png" alt="네이버 블로그 아이콘">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);" title="페이스북 바로가기">
+                      <img src="./images/ico-footer_fb.png" alt="페이스북 아이콘">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);" title="유튜브 바로가기">
+                      <img src="./images/ico-footer_youtube.png" alt="유튜브 아이콘">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);" title="인스타그램 바로가기">
+                      <img src="./images/ico-footer_insta.png" alt="인스타그램 아이콘">
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="info">
+            <div>
+              <h3>고객상담센터</h3>
+              <p class="tel"><a href="tel:15880000" title="통화하기">1588-0000</a></p>
+              <p>365일 24시간 운영</p>
+            </div>
+            <div>
+              <h3>환기시스템 렌탈/케어 문의</h3>
+              <p class="tel"><a href="tel:16610000" title="통화하기">1661-0000</a></p>
+              <p>평일 09시~18시 운영</p>
+            </div>
+          </div>
+          <address>
+            <p>OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO<br>
+              OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO</p>
+              <p>copyright &copy; All Rights Reserved.</p>
+          </address>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
