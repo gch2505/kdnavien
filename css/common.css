@@ -55,7 +55,7 @@ a{
 .gnb_inner > li > a:hover{
   color:#ED7100;
 }
-
+.gnb_inner > li > a > i.fa-angle-down{display:none;}
 .sub{
   padding-top:10px;
   line-height:35px;
@@ -89,15 +89,15 @@ a{
   display:none;
 }
 .lnb > ul > li{
-  width:36px;
+  width:32px;
   height:2px;
   background:#666;
   position:absolute;
   left:6px;
 }
-.lnb > ul > li:first-child{top:9px;}
+.lnb > ul > li:first-child{top:12px;}
 .lnb > ul > li:nth-child(2){top:24px;}
-.lnb > ul > li:last-child{top:39px;}
+.lnb > ul > li:last-child{top:36px;}
 .lnb .search{
   display:block;
   width:32px; height:32px;
@@ -108,23 +108,24 @@ a{
 
 
 /*푸터서식*/
-
+footer{position:relative;}
 .chat_btn, .top_btn{
   display:block;
   width:60px; height:60px;
   border-radius:50%;
   position:fixed;
   right:15px;
+  z-index:9999;
 }
-.chat_btn{overflow:hidden; bottom:85px;}
+.chat_btn{overflow:hidden; bottom:15px;}
 .chat_btn > img{
   width:100%;
 }
 .top_btn{
   background:#F0F0F0;
-  text-align:center; bottom:15px; 
+  text-align:center; bottom:15px; display:none;
 }
-.top_btn .fas{
+.top_btn i.fas{
   font-size:25px;
   line-height:60px;
   color:#0F2F6E;
@@ -196,6 +197,7 @@ a{
   position:absolute;
   top:0;right:20px;
 }
+label{display:block;padding:0 0 5px 5px;}
 .langage select, .family_site select{
   width:160px;
   border:none;

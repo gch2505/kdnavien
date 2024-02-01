@@ -1,0 +1,235 @@
+@charset "utf-8";
+
+@media screen and (max-width:767px){
+  
+  .f_inner,.f_box{width:100%;}
+
+  .h_inner{width:90%;}
+  .gnb{
+    display:block;
+    background:rgba(0,0,0,.8);
+    width:100%;height:100%;
+    position:fixed;
+    z-index: 9999;
+    display:none;
+  }
+  .gnb_inner{
+    width:80%;
+    height:100%;
+    display:block;
+    position:absolute;
+    background:#0F2F6E;
+    padding-top:50px;
+  }
+  .gnb_inner > li{
+    width:100%;
+    padding:0;
+  }
+  .gnb_inner > li a{
+    color:#fff;
+  }
+  .gnb_inner > li > a > i.fa-angle-down{display:inline;}
+  .lnb > a:first-of-type{display:none;}
+  .lnb ul{
+    display:block;order:2;margin-top:5px;
+    z-index:9999;
+  }
+
+
+  .prize{display:none;}
+  .f_box{
+    text-align: center;
+    height:auto;
+  }
+  .f_box h2{
+    padding:25px 0 100px;
+  }
+  .fnb{
+    margin:30px auto 20px;
+  }
+  .fnb > ul{
+    width:90%;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin:0 auto;
+  }
+  .f_s_wrap{
+    justify-content:center;
+    top:79px;
+    right:50%;
+    transform:translateX(50%);
+  }
+  .info{
+    position:static;
+    padding-bottom:10px;
+    margin-bottom:20px;
+    border-bottom:1px solid #aeaeae;
+    justify-content: center;
+  }
+
+  address{
+    width:90%;
+    padding:0 0 20px 0;
+    text-align:center;
+    margin:0 auto;
+  }
+  address > p{word-wrap:break-word;}
+  address > p br{display:none;}
+
+
+
+
+  .navien, .magazine{
+    width:100%;
+    margin:60px auto;
+  }
+
+  .slide_wrap li a img{
+    object-fit:contain;
+  }
+  .slide_wrap .li01 a img{
+    content:url('../images/m_main_slide1.jpg');
+  }
+  .slide_wrap .li02 a img{
+    content:url('../images/m_main_slide2.jpg');
+  }
+  .slide_wrap .li03 a img{
+    content:url('../images/m_main_slide3.jpg');
+  }
+  .slide_wrap .li04 a img{
+    content:url('../images/m_main_slide4.jpg');
+  }
+
+  /*기업홍보영상, 뉴스*/
+  .navien{
+    display:block;
+  }
+  .promote, .news{
+    width:90%;
+    margin:0 auto;
+  }
+  .news{margin-top:30px;}
+
+
+  /*브랜드스토리*/
+  .story{height:700px;}
+  .story_wrap{
+    width:80%;
+    display:block;
+    padding-top:83px;
+  }
+  .story_wrap h2{
+    padding-top:0;
+    margin-bottom:50px;
+  }
+  .story_wrap h2:before{
+    width:100px;
+    height:5px;
+    top:160px;
+    left:5px;
+  }
+  .story_wrap p{
+    width:100%;
+    margin-left:0;
+  }
+  .story_wrap p br{
+    display:none;
+  }
+
+  /*제품*/
+  .product{
+    width:100%;
+  }
+
+  .pr_wrap ul li{
+    height:520px;
+    position:relative;
+    background:#eee;
+  }
+  .pr_wrap li > img, .pr_intro{
+    left:50%;
+    transform:translateX(-50%);
+  }
+  .pr_intro{
+    top:350px;
+  }
+  .pr_intro > p{color:#333 !important;}
+  .bg_wrap{
+    height:320px;
+    overflow:hidden;
+  }
+  .pr_wrap li .bg_wrap img{
+    width:290%;
+    text-align:center;
+  }
+
+  .product > .left_btn, .product > .right_btn{display:none;}
+
+  .product .ctrl_btn{
+    display:flex !important;
+    justify-content: center;
+    transform:translateY(-35px);
+  }
+  .product .ctrl_btn li{
+    background:#ccc;
+  }
+  .product .ctrl_btn li:last-child{
+    margin-right:0;
+  }
+
+
+  /*터치서비스*/
+  .service{
+    height:450px;
+    text-align:left;
+    background-position:80% center;
+  }
+  .srv_wrap{
+    padding:190px 30px 60px;
+  }
+  .srv_wrap h2{
+    padding-bottom:50px;
+  }
+  .srv_wrap p{
+    padding-bottom:40px;
+    width:90%;
+  }
+  .srv_wrap h2:after{
+    top:85px; left:0;
+    transform:translateX(0);
+  }
+  
+  .highlight{
+    width:20%;
+    left:30%;
+  }
+  .mag_inner{
+    width:90%;
+    height:100%;
+    justify-content:space-around;
+    margin:0 auto;
+  }
+  .mag_inner li{
+    width:49%;
+    height:auto;
+    margin-bottom:5px;
+  }
+  .m_box{bottom:0; height:auto;}
+
+  .cm_inner{
+    width:90%;
+    margin:0 auto;
+  }
+  .cm_inner li{
+    width:49%;
+  }
+  .cm_inner li h3{
+    text-overflow:ellipsis;
+    white-space:unset;
+    line-height:14px;
+    padding:20px 5px;
+    text-indent:0;
+    width:95%;
+  }
+  .cm_inner li span{display:none;}
+}

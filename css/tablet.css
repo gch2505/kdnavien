@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+
+@media screen and (max-width:1200px) and (min-width:768px){
+
+  /*헤더, 푸터*/
+  .h_inner, .f_inner,.f_box{width:100%;}
+  .h_inner{
+    flex-wrap:wrap;
+    justify-content: space-around;
+  }
+  .gnb{
+    order:2;
+  }
+  .sub_box{top:120px;}
+  .lnb ul{
+    display:block;
+    order:2;
+    margin-top:5px;
+  }
+  @media screen and (max-width:1200px) and (min-width:1008px){
+    .h_inner{
+      width:85%;
+    }
+  }
+
+
+  .prize{display:none;}
+  .f_box{
+    display:flex;
+    align-items: center;
+    flex-wrap:wrap-reverse;
+  }
+  .fnb{
+    width:100%;
+    margin:20px 0;
+    border-bottom:1px solid #aeaeae;
+    padding-bottom:20px;
+  }
+  .f_s_wrap{
+    top:95px;
+  }
+  .info{
+    position:static;
+    padding-bottom: 10px;
+    margin-bottom:20px;
+    border-bottom:1px solid #aeaeae;
+  }
+  .address{
+    width:100%;
+  }
+  address > p{word-wrap:break-word;}
+
+  .navien, .magazine{
+    width:100%;
+    margin:60px auto;
+  }
+
+
+
+  /*기업홍보영상, 뉴스*/
+  .navien{
+    display:block;
+  }
+  .promote{margin:0 auto;}
+  .news{margin:30px auto 0 auto;}
+
+  /*브랜드스토리*/
+  .story_wrap{
+    width:80%;
+    padding-top:112px;
+    justify-content: center;
+  }
+  .story_wrap h2{
+    width:240px;
+  }
+  .story_wrap p{
+    margin-left:35px;
+    width:330px;
+  }
+  .story_wrap p br{
+    display:none;
+  }
+
+
+  /*제품*/
+  .product{
+    width:700px;
+  }
+  .pr_wrap li > img{
+    width:150px;
+  }
+  .pr_wrap li > img{
+    top:60px; left:20%;
+  }
+  .pr_wrap li .bg_wrap{
+    width:700px;
+  }
+  .pr_wrap li .bg_wrap img{
+    width:130%;
+    text-align:center;
+  }
+  .pr_intro{right:15%;}
+  .product > .left_btn{left:-6%;}
+  .product > .right_btn{right:-6%;}
+
+
+  /*탭콘텐츠*/
+  .highlight{
+    width:20%;
+    left:30%;
+  }
+  .mag_inner{
+    width:90%;
+    height:100%;
+    justify-content:space-around;
+    margin:0 auto;
+  }
+  .mag_inner li{
+    width:33%;
+    height:auto;
+    margin-bottom:5px;
+  }
+  .mag_inner li:last-child{
+    display:block;
+    width:33%; height:100%;
+  }
+  .m_box{bottom:0;}
+
+  .cm_inner{
+    width:90%;
+    margin:0 auto;
+  }
+
+}
